@@ -1,0 +1,44 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "JW9WLrJH1rXegbSKn_4p1"
+uri = "file://artifacts/bimal-sports/src/assets/hero.png"
+type = "image"
+title = "Hero sports background"
+
+[[generated]]
+id = "YISDlhbp58KJSP-yBg5Mj"
+uri = "file://artifacts/bimal-sports/src/assets/cricket.png"
+type = "image"
+title = "Cricket gear"
+
+[[generated]]
+id = "w2R0RUOhGeMCIx_IJAyyU"
+uri = "file://artifacts/bimal-sports/src/assets/football.png"
+type = "image"
+title = "Football gear"
+
+[[generated]]
+id = "-sTQ4N54ngxmcxv3leW-o"
+uri = "file://artifacts/bimal-sports/src/assets/badminton.png"
+type = "image"
+title = "Badminton gear"
+
+[[generated]]
+id = "D229fv2lVnwivBCzbAQjz"
+uri = "file://artifacts/bimal-sports/src/assets/gym.png"
+type = "image"
+title = "Gym equipment"
+
+[[generated]]
+id = "RufSKx34A9SDv6s3hBuZy"
+uri = "file://artifacts/bimal-sports/src/assets/sportswear.png"
+type = "image"
+title = "Sportswear"
+
+[[generated]]
+id = "TQx2MLrShdf-zr00x6BoF"
+uri = "file://artifacts/bimal-sports/src/assets/accessories.png"
+type = "image"
+title = "Sports accessories"

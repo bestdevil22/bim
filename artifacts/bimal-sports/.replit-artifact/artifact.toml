@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Bimal Sports"
+version = "1.0.0"
+id = "artifacts/bimal-sports"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 20968
+
+[services.development]
+run = "pnpm --filter @workspace/bimal-sports run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/bimal-sports", "run", "build" ]
+publicDir = "artifacts/bimal-sports/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "20968"
+BASE_PATH = "/"
