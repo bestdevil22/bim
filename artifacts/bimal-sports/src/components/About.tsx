@@ -57,11 +57,11 @@ export function About() {
             transition={{ duration: 0.6 }}
             className="relative"
           >
-            <div className="aspect-[4/5] rounded-2xl overflow-hidden relative shadow-2xl">
+            <div className="aspect-[4/5] rounded-2xl overflow-hidden relative shadow-2xl group">
               <img 
                 src="https://images.unsplash.com/photo-1540206351-d6465b3ac5c1?q=80&w=2953&auto=format&fit=crop" 
                 alt="Inside a sports shop" 
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-gray-900/60 to-transparent" />
               <div className="absolute bottom-0 left-0 p-8">

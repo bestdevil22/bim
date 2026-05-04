@@ -28,8 +28,9 @@ export function Products() {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow border border-gray-100 group"
+              whileHover={{ scale: 1.025, boxShadow: "0 20px 50px -10px rgba(0,0,0,0.14)" }}
+              transition={{ duration: 0.5, delay: index * 0.1, type: "spring", stiffness: 300, damping: 24 }}
+              className="bg-white rounded-xl overflow-hidden shadow-sm border border-gray-100 group"
               data-testid={`card-category-${category.id}`}
             >
               <div className="h-56 overflow-hidden relative">

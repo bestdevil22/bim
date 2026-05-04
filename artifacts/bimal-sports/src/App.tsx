@@ -6,6 +6,7 @@ import { Hero } from "./components/Hero";
 import { Products } from "./components/Products";
 import { About } from "./components/About";
 import { Contact } from "./components/Contact";
+import { Reviews } from "./components/Reviews";
 import { Footer } from "./components/Footer";
 import { WhatsAppButton } from "./components/WhatsAppButton";
 
@@ -21,6 +22,7 @@ function App() {
             <Hero />
             <Products />
             <About />
+            <Reviews />
             <Contact />
           </main>
           <Footer />

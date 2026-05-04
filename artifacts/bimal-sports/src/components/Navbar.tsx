@@ -52,6 +52,7 @@ export function Navbar() {
             <button onClick={() => scrollToSection("home")} className="text-gray-700 hover:text-red-600 font-medium transition-colors">Home</button>
             <button onClick={() => scrollToSection("products")} className="text-gray-700 hover:text-red-600 font-medium transition-colors">Products</button>
             <button onClick={() => scrollToSection("about")} className="text-gray-700 hover:text-red-600 font-medium transition-colors">About</button>
+            <button onClick={() => scrollToSection("reviews")} className="text-gray-700 hover:text-red-600 font-medium transition-colors">Reviews</button>
             <button onClick={() => scrollToSection("contact")} className="text-gray-700 hover:text-red-600 font-medium transition-colors">Contact</button>
           </div>
 
@@ -81,6 +82,7 @@ export function Navbar() {
           <button onClick={() => scrollToSection("home")} className="text-left text-gray-800 font-medium py-2 border-b border-gray-100">Home</button>
           <button onClick={() => scrollToSection("products")} className="text-left text-gray-800 font-medium py-2 border-b border-gray-100">Products</button>
           <button onClick={() => scrollToSection("about")} className="text-left text-gray-800 font-medium py-2 border-b border-gray-100">About</button>
+          <button onClick={() => scrollToSection("reviews")} className="text-left text-gray-800 font-medium py-2 border-b border-gray-100">Reviews</button>
           <button onClick={() => scrollToSection("contact")} className="text-left text-gray-800 font-medium py-2 border-b border-gray-100">Contact</button>
           <div className="flex flex-col space-y-3 pt-2">
             <a 

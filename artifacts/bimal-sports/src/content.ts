@@ -7,7 +7,60 @@ import gymImage from "./assets/gym.png";
 import sportswearImage from "./assets/sportswear.png";
 import accessoriesImage from "./assets/accessories.png";
 
+// ✏️ Link to your Google Reviews page (replace with your actual Google Maps review link)
+export const GOOGLE_REVIEWS_URL = "https://www.google.com/maps/search/Bimal+Sports+Rewari";
+
 export const CONTENT = {
+  // ✏️ Your Google Reviews page link — update this when you have a real Google Business listing
+  googleReviewsUrl: GOOGLE_REVIEWS_URL,
+
+  // ✏️ Customer reviews — add, edit or remove reviews freely
+  reviews: [
+    {
+      id: "r1",
+      name: "Rahul Sharma",
+      role: "Cricket Club Captain",
+      rating: 5,
+      text: "Best sports shop in Rewari. Got all my cricket gear here — the quality is outstanding. The staff really knows their products and helped me pick the right bat for my game.",
+    },
+    {
+      id: "r2",
+      name: "Priya Verma",
+      role: "Fitness Enthusiast",
+      rating: 5,
+      text: "Excellent range of gym equipment at very reasonable prices. I bought resistance bands and a yoga mat — great quality. Will definitely come back for more.",
+    },
+    {
+      id: "r3",
+      name: "Amit Yadav",
+      role: "Football Coach",
+      rating: 5,
+      text: "I always send my players to Bimal Sports for their boots and jerseys. Never had a complaint. Trusted shop with genuine products — highly recommended.",
+    },
+    {
+      id: "r4",
+      name: "Sunita Devi",
+      role: "Parent",
+      rating: 5,
+      text: "Bought badminton rackets for my kids here. The shopkeeper was very patient and suggested the perfect ones for beginners. My kids love them!",
+    },
+    {
+      id: "r5",
+      name: "Vikram Singh",
+      role: "Gym Trainer",
+      rating: 5,
+      text: "Reliable, honest, and always stocked with what you need. Bimal Sports is my go-to for all sports equipment. The service is warm and professional.",
+    },
+    {
+      id: "r6",
+      name: "Deepak Nain",
+      role: "Local Athlete",
+      rating: 5,
+      text: "From sportswear to accessories, everything you need in one place. Quality is top notch and the prices are fair. A true asset to the Rewari community.",
+    },
+  ],
+
+
   // Shop identity
   shopName: "Bimal Sports",
   tagline: "Your Local Hub for Quality Sports Gear",
