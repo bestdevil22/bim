@@ -3,7 +3,6 @@ import heroImage from "./assets/hero.png";
 import cricketImage from "./assets/cricket.png";
 import footballImage from "./assets/football.png";
 import badmintonImage from "./assets/badminton.png";
-import gymImage from "./assets/gym.png";
 import sportswearImage from "./assets/sportswear.png";
 import accessoriesImage from "./assets/accessories.png";
 
@@ -12,7 +11,7 @@ export const GOOGLE_REVIEWS_URL = "https://www.google.com/maps/search/Bimal+Spor
 
 export const CONTENT = {
   // ✏️ Your Google Reviews page link — update this when you have a real Google Business listing
-  googleReviewsUrl: GOOGLE_REVIEWS_URL,
+  googleReviewsUrl: "https://www.google.com/search?client=safari&rls=en&q=bimal+sports+rewari&ie=UTF-8&oe=UTF-8#",
 
   // ✏️ Customer reviews — add, edit or remove reviews freely
   reviews: [
@@ -21,28 +20,28 @@ export const CONTENT = {
       name: "Rahul Sharma",
       role: "Cricket Club Captain",
       rating: 5,
-      text: "Best sports shop in Rewari. Got all my cricket gear here — the quality is outstanding. The staff really knows their products and helped me pick the right bat for my game.",
+      text: "Best sports shop in Rewari. Got all my cricket gear here — the quality is outstanding. They really knows their products and helped me pick the right bat for my game.",
     },
     {
       id: "r2",
-      name: "Priya Verma",
+      name: "Mohit Yadav",
       role: "Fitness Enthusiast",
       rating: 5,
-      text: "Excellent range of gym equipment at very reasonable prices. I bought resistance bands and a yoga mat — great quality. Will definitely come back for more.",
+      text: "Nice shop good quality",
     },
     {
       id: "r3",
-      name: "Amit Yadav",
-      role: "Football Coach",
+      name: "KULDEEP YADAV",
+      role: "Fitness Enthusiast",
       rating: 5,
-      text: "I always send my players to Bimal Sports for their boots and jerseys. Never had a complaint. Trusted shop with genuine products — highly recommended.",
+      text: "Polite Attitude and good quality products",
     },
     {
       id: "r4",
-      name: "Sunita Devi",
-      role: "Parent",
+      name: "Yash Madhav Sharma",
+      role: "",
       rating: 5,
-      text: "Bought badminton rackets for my kids here. The shopkeeper was very patient and suggested the perfect ones for beginners. My kids love them!",
+      text: "Best",
     },
     {
       id: "r5",
@@ -53,7 +52,7 @@ export const CONTENT = {
     },
     {
       id: "r6",
-      name: "Deepak Nain",
+      name: "Deepak Mor",
       role: "Local Athlete",
       rating: 5,
       text: "From sportswear to accessories, everything you need in one place. Quality is top notch and the prices are fair. A true asset to the Rewari community.",
@@ -71,7 +70,7 @@ export const CONTENT = {
     phoneDisplay: "+91 98969 76668",
     whatsappUrl: "https://wa.me/919896976668",
     address: "Shop No. 26, Rao Tularam Stadium, Rewari, Haryana 123401, India",
-    mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.7!2d76.617!3d28.196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDEx!5e0!3m2!1sen!2sin!4v1!5m2!1sen!2sin",
+    mapEmbedUrl:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3516.260632752994!2d76.6387938!3d28.199392999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d510b4668ee91%3A0xa7d26ecf6c9dda43!2sBimal%20Sports%2CRewari!5e0!3m2!1sen!2sin!4v1777888377847!5m2!1sen!2sin",
   },
   
   // Hero section
@@ -111,7 +110,7 @@ export const CONTENT = {
     {
       id: "gym",
       name: "Gym & Fitness Equipment",
-      imageUrl: gymImage,
+      imageUrl: sportswearImage,
       items: ["Dumbbells", "Resistance Bands", "Yoga Mat", "Jump Rope"],
     },
     {
