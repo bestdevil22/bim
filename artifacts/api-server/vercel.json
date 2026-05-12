@@ -4,7 +4,8 @@
   "installCommand": "pnpm install",
   "functions": {
     "dist/index.mjs": {
-      "runtime": "nodejs22.x"
+      "memory": 1024,
+      "maxDuration": 10
     }
   },
   "routes": [
